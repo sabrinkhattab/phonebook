@@ -1,0 +1,20 @@
+.custom_form_style{
+  display: inline !important;
+  width: 350px !important;
+  margin-left: 30px;
+}
+.panel_body{
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+}
+.searchIcon{
+  position: absolute;
+  left: 67%;
+  top:24%;
+
+}
+.Icon_custom_color{
+  color: #33338A;
+}
+

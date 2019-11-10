@@ -1,4 +1,14 @@
-<p>
-  Hello from test component{{test}}
-  <input class="form-control">
-</p>
+<div>
+  <table class="table">
+    <thead>
+    <th scope="col">Contacts</th>
+    <th scope="col">Phone Number</th>
+    <th scope="col">Handle</th>
+    </thead>
+    <tbody>
+     <tr tablerow *ngFor="let contact of contacts" [contact]="contact" (deleteContact)="deleteContact($event)" ></tr>
+    </tbody>
+  </table>
+  <app-add-contact (addContact)="addNewContact($event)"></app-add-contact>
+
+</div>

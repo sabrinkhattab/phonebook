@@ -1,0 +1,17 @@
+<div class="add_contact_wrapper">
+  <!--        addContactForm.form.valid && RegisterContact(addContactForm.value)"-->
+  <form class="add_contact_form" #addContactForm = "ngForm"
+        (ngSubmit)="onSubmit(addContactForm.value)">
+<!--    {{addContactForm.value | json}}-->
+    <div class="form-group">
+      <label>Name :</label>
+      <input class="form-control custom_form_style" type="text" name="name"  [(ngModel)]="name" required >
+    </div>
+    <div class="form-group">
+      <label>Tel :</label>
+      <input class="form-control custom_form_style" type="text" name="phone" [(ngModel)]="phone" required >
+
+    </div>
+    <button type="submit" class="btn btn-primary add-btn">Add</button>
+  </form>
+</div>

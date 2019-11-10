@@ -1,0 +1,13 @@
+.phone_book{
+  width: 80%;
+  height:500px;
+  border: 1px solid #a5ece8;
+  border-radius: 4px;
+  margin-top: 15px;
+  position: relative;
+}
+.phoneBook_container{
+  display: flex;
+  justify-content: center;
+}
+

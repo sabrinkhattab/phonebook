@@ -1,0 +1,14 @@
+.custom_btn_style{
+  background : none;
+  border: none;
+}
+.custom_icon_style{
+  color: #548fc2;
+  margin:10px
+}
+.CheckIcon_hidden{
+  display: none;
+}
+.editIcon_hidden{
+  display: none;
+}

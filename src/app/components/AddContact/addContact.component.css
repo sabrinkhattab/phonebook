@@ -1,0 +1,23 @@
+.add_contact_form{
+  display: flex;
+  margin: 15px 0 0 250px;
+
+}
+.add_contact_wrapper{
+  background-color: #f5f5f5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.custom_form_style{
+  display: inline !important;
+  width: 200px;
+}
+.add_contact_form .form-group{
+  margin-right: 15px;
+}
+.add-btn{
+  width:56px;
+height:39px;
+}
